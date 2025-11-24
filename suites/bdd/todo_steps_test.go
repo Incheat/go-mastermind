@@ -42,10 +42,6 @@ func theRawRequestBodyIs(arg1 *godog.DocString) error {
         return godog.ErrPending
 }
 
-func theRequestHeadersAre(arg1 *godog.Table) error {
-        return godog.ErrPending
-}
-
 func theRequestPayloadIs(arg1 *godog.DocString) error {
         return godog.ErrPending
 }
